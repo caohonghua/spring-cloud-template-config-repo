@@ -2,7 +2,7 @@ server:
   port: 9002
 spring:
   application:
-    name: zuul_server
+    name: zuul-server
 eureka:
   client:
     service-url:
