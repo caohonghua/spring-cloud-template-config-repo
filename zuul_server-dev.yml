@@ -12,4 +12,5 @@ zuul:
   sso_server:
    path: /sso-server/**
    server-id: sso-server
+   stripPrefix: true
  sensitive-headers: 
