@@ -10,6 +10,6 @@ eureka:
 zuul:
  routes:
   sso_server:
-   path: /sso_server/**
-   server-id: sso_server
+   path: /sso-server/**
+   server-id: sso-server
  sensitive-headers: 
