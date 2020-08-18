@@ -6,6 +6,10 @@ logging:
 spring:
  application:
   name: sso-server
+ datasource:
+  url: jdbc:mysql://129.28.30.208:3306/spring_cloud_template?serverTimezone=Asia/Shanghai
+  username: root
+  password: CAOHH@123456
 eureka:
  client:
   service-url:
