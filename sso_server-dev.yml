@@ -1,5 +1,8 @@
 server:
  port: 9003
+logging:
+ level:
+   web: DEBUG
 spring:
  application:
   name: sso-server
