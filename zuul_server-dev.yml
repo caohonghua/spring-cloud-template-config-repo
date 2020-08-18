@@ -8,9 +8,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:9000/eureka/
 zuul:
+ ignoreServices: '*'
  routes:
-  sso_server:
-   path: /sso-server/**
-   server-id: sso-server
-   stripPrefix: true
+  sso-server: /sso-server/**
  sensitive-headers: 
