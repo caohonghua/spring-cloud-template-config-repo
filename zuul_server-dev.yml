@@ -12,7 +12,8 @@ eureka:
 zuul:
  ignoreServices: '*'
  routes:
-  sso-server: /sso-server/**
+  sso-server: /sso/**
+  video-server: /video/**
  sensitive-headers: 
 ribbon:
  ReadTimeout: 5000
