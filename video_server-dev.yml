@@ -3,6 +3,11 @@ server:
 spring:
  application:
   name: video-server
+ rabbitmq:
+    host: 129.28.30.208
+    port: 5672
+    username: user
+    password: pass
 eureka:
  client:
   service-url:
