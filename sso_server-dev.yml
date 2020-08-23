@@ -7,10 +7,10 @@ spring:
  application:
   name: sso-server
  rabbitmq:
-    host: 129.28.30.208
-    port: 5672
-    username: user
-    password: pass
+    host: localhost
+    port: 15672
+    username: caohh
+    password: caohh
  datasource:
   url: jdbc:mysql://129.28.30.208:3306/spring_cloud_template?serverTimezone=Asia/Shanghai
   username: root
