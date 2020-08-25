@@ -11,10 +11,6 @@ spring:
     port: 5672
     username: caohh
     password: caohh
- datasource:
-  url: jdbc:mysql://129.28.30.208:3306/spring_cloud_template?serverTimezone=Asia/Shanghai
-  username: root
-  password: CAOhh@123456
 eureka:
  client:
   service-url:
