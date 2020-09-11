@@ -17,6 +17,7 @@ zuul:
  routes:
   sso-server: /sso/**
   video-server: /video/**
+  web-server: /web/**
  sensitive-headers: 
 ribbon:
  ReadTimeout: 5000
