@@ -5,12 +5,10 @@ spring:
     name: zuul-server
   rabbitmq:
     host: localhost
-    port: 15672
-    username: caohh
-    password: caohh
+    port: 5672
+    username: guest
+    password: guest
 eureka:
-  instance:
-    hostname: localhost
   client:
     service-url:
       defaultZone: http://localhost:9000/eureka/
