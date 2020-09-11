@@ -15,9 +15,12 @@ eureka:
 zuul:
  ignoreServices: '*'
  routes:
+  local:
+   path: /actuator/**
+   url: forward:/actuator
   sso-server: /sso/**
   video-server: /video/**
-  web-server: /web/**
+  web-server: /**
  sensitive-headers: 
 ribbon:
  ReadTimeout: 5000
