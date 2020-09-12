@@ -18,6 +18,7 @@ zuul:
   local:
    path: /actuator/**
    url: forward:/actuator
+  resource-server: /resource/**
   sso-server: /sso/**
   video-server: /video/**
   web-server: /**
