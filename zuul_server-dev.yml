@@ -23,6 +23,4 @@ zuul:
   video-server: /video/**
   web-server: /**
  sensitive-headers: 
-ribbon:
- ReadTimeout: 5000
- SocketTimeout: 5000
+
