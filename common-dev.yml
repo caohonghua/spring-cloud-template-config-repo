@@ -5,4 +5,4 @@ gateway:
 sso:
   url: ${gateway.url}/sso/login/page
 token:
-  duration: 1
+  duration: 30
