@@ -1,3 +1,6 @@
+spring:
+  session:
+    store-type: redis
 domain: 
   url: localhost
 gateway:
