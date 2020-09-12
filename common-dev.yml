@@ -2,5 +2,3 @@ gateway:
   url: http://localhost:9002
 sso:
   url: ${gateway.url}/sso/login/page
-resource:
-  url: ${gateway.url}/resource
