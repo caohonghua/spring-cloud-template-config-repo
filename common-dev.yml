@@ -2,3 +2,5 @@ gateway:
   url: http://localhost:9002
 sso:
   url: ${gateway.url}/sso/login/page
+token:
+  duration: 1
