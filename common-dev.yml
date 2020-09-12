@@ -1,5 +1,7 @@
+domain: 
+  url: localhost
 gateway:
-  url: http://localhost:9002
+  url: http://${domain.url}:9002
 sso:
   url: ${gateway.url}/sso/login/page
 token:
